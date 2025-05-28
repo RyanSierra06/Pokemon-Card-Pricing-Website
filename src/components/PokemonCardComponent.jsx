@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function PokemonCardComponent({card}) {
     return (
-        <Link to={`/PokemonPricingWebsite/cards/${card.id}`} className="pokemon-card-link">
+        <Link to={`/Pokemon-Card-Pricing-Website/cards/${card.id}`} className="pokemon-card-link">
             <div className="pokemon-card">
                 <div className="card-image">
                     <img

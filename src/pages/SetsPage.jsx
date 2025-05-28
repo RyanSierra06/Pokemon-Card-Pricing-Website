@@ -34,7 +34,7 @@ function SetsPage() {
                 {sets.map(set => (
                     <Link
                         key={set.id}
-                        to={`/PokemonPricingWebsite/sets/${set.id}`}
+                        to={`/Pokemon-Card-Pricing-Website/sets/${set.id}`}
                         className="set-link"
                     >
                         <SetCardComponent set={set} />
