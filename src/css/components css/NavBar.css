@@ -1,0 +1,124 @@
+.navbar {
+    background-color: #242424;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.nav-link, .type-select, .search-input, .search-button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: all 0.2s;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.05);
+
+    text-decoration: none;
+}
+
+.nav-link:hover, .type-select:hover, .search-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Search container adjustments */
+.search-container {
+    flex: 1;
+    max-width: 600px;
+    margin: 0 2rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.search-form {
+    display: flex;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+.type-select {
+    appearance: none;
+    cursor: pointer;
+    padding-right: 2rem;
+    position: relative;
+}
+
+.search-dropdown {
+    position: relative;
+}
+
+.search-dropdown::after {
+    content: "▼";
+    color: white;
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    font-size: 0.7rem;
+}
+
+.search-input {
+    flex: 1;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.search-input:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1);
+}
+
+/* Search button matching nav links */
+.search-button {
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .navbar {
+        flex-wrap: wrap;
+        padding: 1rem;
+        gap: 0.5rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem;
+        order: 1;
+    }
+
+    .navbar-links {
+        order: 2;
+        gap: 0.5rem;
+    }
+
+    .search-container {
+        order: 3;
+        width: 100%;
+        margin: 0;
+    }
+
+    .type-select, .search-input, .search-button {
+        padding: 0.5rem;
+        font-size: 0.9rem;
+    }
+
+    .search-dropdown::after {
+        right: 0.5rem;
+    }
+}

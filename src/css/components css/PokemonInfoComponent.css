@@ -1,0 +1,91 @@
+.pokemon-info {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+}
+
+.pokemon-info-pic {
+    position: sticky;
+    top: 20px;
+    height: fit-content;
+}
+
+.pokemon-info-pic img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.pokemon-card-info {
+    background: #242424FF;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.info-section {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+}
+
+.info-label {
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.info-value {
+    color: #ffffff;
+    text-align: right;
+}
+
+.card-name {
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+}
+
+.attack {
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+}
+
+.attack-name {
+    font-weight: 1000;
+    color: #c51b1b;
+    margin-bottom: 0.5rem;
+}
+
+.attack-details {
+    display: grid;
+    gap: 0.5rem;
+    color: #ffffff;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.8rem 1.5rem;
+    background: #242424FF;
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+    transition: background 0.2s;
+    outline: none;
+}
+.back-link:focus,
+.back-link:hover,
+.back-link:active {
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+
+.back-link:hover {
+    transform: scale(1.03);
+}
