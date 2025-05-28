@@ -11,10 +11,10 @@ function App() {
         <Router>
             <NavBar />
             <Routes>
-                <Route path="/" element={<SetsPage />} />
-                <Route path="/sets/:setId" element={<SetCardsPage />} />
-                <Route path="/cards/:cardId" element={<CardsInfoPage />} />
-                <Route path="/search/:cardName" element={<SearchCardsPage />} />
+                <Route path="PokemonPricingWebsite/" element={<SetsPage />} />
+                <Route path="PokemonPricingWebsite/sets/:setId" element={<SetCardsPage />} />
+                <Route path="PokemonPricingWebsite/cards/:cardId" element={<CardsInfoPage />} />
+                <Route path="PokemonPricingWebsite/search/:cardName" element={<SearchCardsPage />} />
             </Routes>
         </Router>
     );
