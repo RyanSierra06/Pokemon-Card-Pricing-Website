@@ -9,7 +9,7 @@ function NavBar() {
     const handleSearch = (e) => {
         e.preventDefault();
         if (searchQuery.trim()) {
-            navigate(`/search/${encodeURIComponent(searchQuery)}`);
+            navigate(`/PokemonPricingWebsite/search/${encodeURIComponent(searchQuery)}`);
             setSearchQuery("");
         }
     };
@@ -17,7 +17,7 @@ function NavBar() {
     return (
         <nav className="navbar">
             <div className="navbar-brand">
-                <Link to="/">Pokédex</Link>
+                <Link to="/PokemonPricingWebsite/">Pokédex</Link>
             </div>
             <div className="search-container">
                 <form onSubmit={handleSearch} className="search-form">
@@ -35,7 +35,7 @@ function NavBar() {
             </div>
 
             <div className="navbar-links">
-                <Link to="/" className="nav-link">Sets</Link>
+                <Link to="/PokemonPricingWebsite/" className="nav-link">Sets</Link>
             </div>
         </nav>
     )
