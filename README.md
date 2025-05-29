@@ -14,6 +14,7 @@ All pages except for the info page use a map of different components to display 
 - For example, theres a PokemonCardComponent which gets mapped to show all the cards from a search or a set, as well as a SetCardComponent which is mapped to show every set released from 1999 all the way to the present.
 
 The website dynamically scales as well to account for new sets added, so when the API updates to add new english sets as they release, the website will update to display those changes too.
+
 <img width="1506" alt="Screenshot 2025-05-28 at 10 29 18 PM" src="https://github.com/user-attachments/assets/96a8baf2-ff2d-4a98-bcc7-d3d30a761122" />
 <img width="1502" alt="Screenshot 2025-05-28 at 10 29 42 PM" src="https://github.com/user-attachments/assets/61331b04-b7c1-4e8d-8df2-1bb9ea5d0e86" />
 <img width="1504" alt="Screenshot 2025-05-28 at 10 30 08 PM" src="https://github.com/user-attachments/assets/bc7044c0-2f90-4bf2-8ded-2e247f97fce3" />
