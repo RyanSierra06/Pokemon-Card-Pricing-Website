@@ -15,8 +15,7 @@ All pages except for the info page use a map of different components to display 
 
 The website dynamically scales as well to account for new sets added, so when the API updates to add new english sets as they release, the website will update to display those changes too.
 
-<img width="1506" alt="Screenshot 2025-05-28 at 10 29 18 PM" src="https://github.com/user-attachments/assets/96a8baf2-ff2d-4a98-bcc7-d3d30a761122" />
-<img width="1502" alt="Screenshot 2025-05-28 at 10 29 42 PM" src="https://github.com/user-attachments/assets/61331b04-b7c1-4e8d-8df2-1bb9ea5d0e86" />
-<img width="1504" alt="Screenshot 2025-05-28 at 10 30 08 PM" src="https://github.com/user-attachments/assets/bc7044c0-2f90-4bf2-8ded-2e247f97fce3" />
-<img width="1501" alt="Screenshot 2025-05-28 at 10 30 41 PM" src="https://github.com/user-attachments/assets/cc592625-cdf3-46fe-9d0a-e54204f7b2f1" />
-
+<img width="1511" alt="Screenshot 2025-05-28 at 10 46 58 PM" src="https://github.com/user-attachments/assets/781bbb69-1c85-49d3-907f-24be2ace67be" />
+<img width="1512" alt="Screenshot 2025-05-28 at 10 47 15 PM" src="https://github.com/user-attachments/assets/ca3e575a-53a2-4974-9f15-b42cd16e3085" />
+<img width="1510" alt="Screenshot 2025-05-28 at 10 47 31 PM" src="https://github.com/user-attachments/assets/b76aaa97-8cbc-4a6f-9c24-0897c0dc1613" />
+<img width="1512" alt="Screenshot 2025-05-28 at 10 47 42 PM" src="https://github.com/user-attachments/assets/3bcdf890-fb2e-483f-a9fa-f086e48bed63" />
